@@ -1,0 +1,76 @@
+.contact-com ul {
+    display: block;
+}
+.header li {
+    display: flex;
+    align-items: center;
+}
+.contact-com h1 {
+    font-size: 64px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+}
+.contact-com h3 {
+    color: #F67E7E;
+    font-size: 32px;
+    font-family: Livvic700;
+    padding-bottom: 25px;
+}
+.contact-com li p {
+    font-size: 18px;
+}
+.header .container {
+    padding-bottom: 100px;
+}
+form input {
+    width: 90%;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    color: #79C8C7;
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+    font-family: Livvic600;
+    border-bottom: 1px solid #79C8C7;
+    background-color: #014E56;
+}
+form button {
+    border: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Livvic600;
+    background-color: white;
+    color: #004047 !important;
+}
+
+
+/* git remote rename https://github.com/MrDeft/lesson19.git https://github.com/MrDeft/lesson-19.git */
+
+/* Media */
+@media only screen and (max-width: 768px) {
+    .contact-com {
+        margin: auto;
+        width: 540px;
+    }
+    .contact-com h1, h3 {
+        text-align: center;
+    }
+    .contact-com div:nth-child(2) {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .contact-com {
+        margin: auto;
+        width: 440px;
+    }
+    .contact-com h1, h3 {
+        text-align: center;
+    }
+    .contact-com li p {
+        width: 300px;
+    }
+}
